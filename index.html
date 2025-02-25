@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;500;;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.cm/font-awesome/4.7.7.css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+       <nav>
+         <a href="index.html"><img src="cup.jpg"></a>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+         </div>
+         <i class="fa fa-bars"></i>
+       </nav>
+       
+    <div class="text-box">
+        <h1>Top 11 Owerri Best Schools</h1>
+        <p>Coming to Deeper Life High School is one of the best thing to do. It is a place where they give Moral training, Spiritual training, Talent are discoverd e.t.c.</p>
+        <form>
+            <input type=button value=' Click to visit us! ' onClick="window.location.href='http://deeperlifehighschool.org';">
+        </form>
+    </div>
+    </section>
+
+     <!------ course ------>
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>We offer:<ol>Maths</ol><ul>Engligh</ul><ol>French</ol><ol>Social Studies</ol><ol>History E.T.C.</ol></p>
+     
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    </div>
+    
+    
+    </section>
+
+    <!--------- campus ---------->
+    
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="dd.jpg" height="100%">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="WWE.jfif">
+            <div class="layer">
+                <h3>WWE</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="PES.jpg" height="100%">
+            <div class="layer">
+                <h3>PES</h3>
+            </div>
+        </div>
+    
+    </div>
+
+    </section>
+
+<!---- facilities ------>
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!------javascripst for toggle------->
+<script>
+
+     var navlinks = document.getElementById("navlinks");
+     function showmenu(){
+        navlinks.style.right = "0";
+     }
+     function hidemenu(){
+        navlinks.style.right = "-200px"
+     }
+
+</script>
+
+</body>
+</html>
